@@ -1,11 +1,11 @@
 # iForensics-iCrash 
 
 ###### Contexte : 
-Lors d’un passage de douane, le douanier vous demande de lui remettre votre téléphone ainsi que son code de déverrouillage. Le téléphone vous est rendu quelques heures plus tard …
+Lors d’un passage de douane, le douanier vous demande de lui remettre votre téléphone ainsi que son code de déverrouillage. Le téléphone vous est rendu quelques heures plus tard…
 
 Suspicieux, vous envoyez votre téléphone pour analyse au CERT-FR de l’ANSSI. Les analystes du CERT-FR effectuent une collecte sur le téléphone, composée d’un sysdiagnose et d’un backup.
 
-Il semblerait qu’un flag se soit caché à l’endroit où sont stockés les crashes sur le téléphone …
+Il semblerait qu’un flag se soit caché à l’endroit où sont stockés les crashes sur le téléphone…
 
 Cette épreuve fait partie d’une série. Les épreuves sont indépendantes sauf iBackdoor 2/2 qui dépend de iBackdoor 1/2 :
 
@@ -32,12 +32,12 @@ Je créer un répertoire dans lequel je vais extraire l'archive.
 
 2. Extraction de l'archive
    
-J'extrai ensuite l'archive dans le répertoire de travail.
+J'extrais ensuite l'archive dans le répertoire de travail.
 > `tar -xvf sysdiagnose_and_crashes.tar.xz -C ./sysdiagnose`
 
 3. Là où sont les crashes
 
-Nous allons ensuite naviguer à l'endroit ou sont stocké les crashes.
+Nous allons ensuite naviguer à l'endroit ou sont stockés les crashes.
 > `cd /sysdiagnose/private/var/mobile/Library/Logs/CrashReporter`
 
 En affichant le contenu de ce dossier, nous pouvons apercevoir un fichier txt intéressant : **fcsc_intro.txt** 
