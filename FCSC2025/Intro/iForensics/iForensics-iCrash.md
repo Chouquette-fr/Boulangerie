@@ -42,11 +42,11 @@ Nous allons ensuite naviguer à l'endroit ou sont stocké les crashes.
 
 En affichant le contenu de ce dossier, nous pouvons apercevoir un fichier txt intéressant : **fcsc_intro.txt** 
 > `ls`
-![contenu de CrashReporter]
-(https://github.com/Chouquette-fr/Boulangerie/blob/main/FCSC2025/Intro/iForensics/images/contenu_repertoire.png)
+<img src='https://github.com/Chouquette-fr/Boulangerie/blob/main/FCSC2025/Intro/iForensics/images/contenu_repertoire.png'>
 
 4. Flag
    
 En affichant le contenu de **fcsc_intro.txt** nous avons directement accès au flag.
 > `cat fcsc_intro.txt`
-Flag :*FCSC{7a1ca2d4f17d4e1aa8936f2e906f0be8}*
+
+Flag : *FCSC{7a1ca2d4f17d4e1aa8936f2e906f0be8}*
